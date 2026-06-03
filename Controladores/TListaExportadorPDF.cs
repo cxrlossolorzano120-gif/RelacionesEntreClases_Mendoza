@@ -70,7 +70,6 @@ namespace RelacionesEntreClases_Mendoza.Controladores
                         Lista_ExportadorPDF[i]);
                 }
             }
-
             return lista;
         }
     }
