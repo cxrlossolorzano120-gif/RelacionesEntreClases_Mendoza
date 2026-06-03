@@ -58,7 +58,6 @@ namespace RelacionesEntreClases_Mendoza.Controladores
                     lista.Add(TListaFactura.Lista_Factura[i]);
                 }
             }
-
             return lista;
         }
     }
