@@ -28,7 +28,6 @@ namespace SistemaNominas_ClasesAbstractas.Entidades
         public string Direccion { get => direccion; set => direccion = value; }
         public string Telefono { get => telefono; set => telefono = value; }
  
-
         public Persona()
         {
         }

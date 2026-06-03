@@ -61,7 +61,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
             }
             return incentivo;
         }
-
         public void Imprimir()
         {
             MessageBox.Show("Especialidad: " + especialidad + "\n" +

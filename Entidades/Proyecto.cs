@@ -22,7 +22,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
         public Proyecto()
         {
         }
-
         public Proyecto(string idProyecto, string nombreProyecto,
             string tipoDiseno, double presupuesto,
             DateTime fechaInicio, DateTime fechaEntrega,

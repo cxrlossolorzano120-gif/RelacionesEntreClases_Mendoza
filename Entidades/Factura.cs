@@ -86,7 +86,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
         {
             get { return proyecto.Estado; }
         }
-
         public double TotalFactura
         {
             get

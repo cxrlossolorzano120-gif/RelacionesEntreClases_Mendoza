@@ -30,7 +30,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
             this.licencia = licencia;
             this.precio = precio;
         }
-
         public string CodigoSoftware { get => codigoSoftware; set => codigoSoftware = value; }
         public string NombreSoftware { get => nombreSoftware; set => nombreSoftware = value; }
         public string Version { get => version; set => version = value; }

@@ -33,7 +33,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
         {
             get { return disenador.Nombre; }
         }
-
         public string Especialidad
         {
             get { return disenador.Especialidad; }

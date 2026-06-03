@@ -16,7 +16,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
         public ExportadorPDF()
         {
         }
-
         public ExportadorPDF(string codigoExportacion,
             DateTime fechaExportacion,
             string formato)

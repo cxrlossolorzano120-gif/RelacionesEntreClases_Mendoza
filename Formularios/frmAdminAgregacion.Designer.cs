@@ -45,9 +45,10 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(820, 514);
+            this.button4.Location = new System.Drawing.Point(1093, 633);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(118, 39);
+            this.button4.Size = new System.Drawing.Size(157, 48);
             this.button4.TabIndex = 20;
             this.button4.Text = "Salir";
             this.button4.UseVisualStyleBackColor = true;
@@ -55,9 +56,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(285, 514);
+            this.button3.Location = new System.Drawing.Point(380, 633);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 39);
+            this.button3.Size = new System.Drawing.Size(157, 48);
             this.button3.TabIndex = 19;
             this.button3.Text = "Eliminar";
             this.button3.UseVisualStyleBackColor = true;
@@ -65,9 +67,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(161, 514);
+            this.button2.Location = new System.Drawing.Point(215, 633);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 39);
+            this.button2.Size = new System.Drawing.Size(157, 48);
             this.button2.TabIndex = 18;
             this.button2.Text = "Modificar";
             this.button2.UseVisualStyleBackColor = true;
@@ -75,9 +78,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 514);
+            this.button1.Location = new System.Drawing.Point(49, 633);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 39);
+            this.button1.Size = new System.Drawing.Size(157, 48);
             this.button1.TabIndex = 17;
             this.button1.Text = "Ingresar";
             this.button1.UseVisualStyleBackColor = true;
@@ -86,28 +90,32 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(35, 83);
+            this.dataGridView1.Location = new System.Drawing.Point(47, 102);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(903, 416);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1204, 512);
             this.dataGridView1.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("TeleVoiceLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(388, 35);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(517, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 18);
+            this.label1.Size = new System.Drawing.Size(224, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Agregacion Proyectos";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.estadoProyectosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(972, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1296, 28);
             this.menuStrip1.TabIndex = 21;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -118,35 +126,35 @@
             this.pendienteToolStripMenuItem,
             this.finalizadoToolStripMenuItem});
             this.estadoProyectosToolStripMenuItem.Name = "estadoProyectosToolStripMenuItem";
-            this.estadoProyectosToolStripMenuItem.Size = new System.Drawing.Size(109, 20);
+            this.estadoProyectosToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.estadoProyectosToolStripMenuItem.Text = "Estado Proyectos";
             // 
             // activoToolStripMenuItem
             // 
             this.activoToolStripMenuItem.Name = "activoToolStripMenuItem";
-            this.activoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.activoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.activoToolStripMenuItem.Text = "Activo";
             this.activoToolStripMenuItem.Click += new System.EventHandler(this.activoToolStripMenuItem_Click);
             // 
             // pendienteToolStripMenuItem
             // 
             this.pendienteToolStripMenuItem.Name = "pendienteToolStripMenuItem";
-            this.pendienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pendienteToolStripMenuItem.Text = "Pendiente";
+            this.pendienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pendienteToolStripMenuItem.Text = "Pendient";
             this.pendienteToolStripMenuItem.Click += new System.EventHandler(this.pendienteToolStripMenuItem_Click);
             // 
             // finalizadoToolStripMenuItem
             // 
             this.finalizadoToolStripMenuItem.Name = "finalizadoToolStripMenuItem";
-            this.finalizadoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.finalizadoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.finalizadoToolStripMenuItem.Text = "Finalizado";
             this.finalizadoToolStripMenuItem.Click += new System.EventHandler(this.finalizadoToolStripMenuItem_Click);
             // 
             // frmAdminAgregacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(972, 588);
+            this.ClientSize = new System.Drawing.Size(1296, 724);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -155,6 +163,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAdminAgregacion";
             this.Text = "frmAdminAgregacion";
             this.Load += new System.EventHandler(this.frmAdminAgregacion_Load);
