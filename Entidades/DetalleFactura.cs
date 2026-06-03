@@ -36,7 +36,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
                          proyecto.ImprimirProyecto() + "\n\n" +
 
                          "Subtotal Detalle: $" + SubtotalDetalle();
-
             return men;
         }
     }
