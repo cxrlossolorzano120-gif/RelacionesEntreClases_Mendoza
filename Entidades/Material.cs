@@ -35,7 +35,6 @@ namespace RelacionesEntreClases_Mendoza.Entidades
             double total = cantidad * costoUnitario;
             return total;
         }
-
         public string ImprimirMaterial()
         {
             string men = "Codigo Material: " + codigoMaterial + "\n" +
